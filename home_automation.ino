@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL3qfZX7mIH"
-#define BLYNK_TEMPLATE_NAME "Minor Project"
+#define BLYNK_TEMPLATE_ID "________"
+#define BLYNK_TEMPLATE_NAME "____________"
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
@@ -7,9 +7,9 @@
 #include <DHT.h>
 
 
-char auth[] = "BLR-oWXpwavu61DqwKM9iaWZxpd2_m67";
-char ssid[] = "@owais";
-char pass[] = "Owais@2412";
+char auth[] = "________________";
+char ssid[] = "_____";
+char pass[] = "_______";
 
 DHT dht(D3, DHT11); //(sensor pin,sensor type)
 BlynkTimer timer;
